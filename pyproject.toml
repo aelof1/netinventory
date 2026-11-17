@@ -7,7 +7,7 @@ name = "netinventory"
 version = "1.0.0"
 description = "Discover and track devices on your local network"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = []
 

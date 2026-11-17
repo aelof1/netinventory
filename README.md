@@ -32,7 +32,7 @@ Local network inventory: the tool finds every connected device (IP, MAC address,
 
 ## Requirements
 
-- **Python 3.9 or newer**
+- **Python 3.10 or newer**
 - The `ping` command (present everywhere; on some minimal Docker images: `sudo apt install iputils-ping`)
 - No external Python libraries
 - **Recommended on Linux**: the `ieee-data` package, which contains the official list of manufacturers. It's used automatically when installed. Without it, the tool only has a small built-in list (Raspberry Pi, VMware, VirtualBox…).
