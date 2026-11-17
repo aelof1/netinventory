@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netinventory"
+version = "1.0.0"
+description = "Discover and track devices on your local network"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+netinventory = "netinventory.cli:main"
+
+[tool.setuptools]
+packages = ["netinventory"]
